@@ -29,3 +29,7 @@ document.getElementById("third-div").addEventListener("mouseover", () => {
 document.getElementById("fourth-div").addEventListener("mouseover", () => {
     changeBackground("images/repair.jpg");
 });
+
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
