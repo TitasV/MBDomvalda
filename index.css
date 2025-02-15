@@ -59,6 +59,8 @@ nav ul {
 
 .main-logo {
     height: 85px;
+    padding-left: 20px;
+    cursor: pointer;
 }
 
 nav li {
